@@ -425,7 +425,7 @@ footer{
     }
     
     #bannerInicial svg{
-       width: 33%;
+       width: 40%;
     }
     
     #bannerInicial h1{
@@ -435,7 +435,7 @@ footer{
     }
     
     #bannerInicial h2{
-        width: 400px;
+        width: 300px;
         font-size: 18px;
         padding-top: 10px;
         padding-bottom: 20px;
@@ -569,7 +569,7 @@ footer{
 
 }
 
-@media only screen and (max-width: 587px){
+@media only screen and (max-width: 605px){
     
     #divHeader {
         display: none;
@@ -664,11 +664,12 @@ footer{
         margin: 0px;
         padding-right: 0px;
         align-content: center;
+        width: 100%
     }
 
     #bannerInicial svg{
-        width: 118%;
-        padding-left: 100px;
+        width: 90%;
+        padding-left: 30px;
     }
 
     #bannerInicial div{
@@ -678,11 +679,12 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 350px;
     }
     
     #bannerInicial h1{
         font-size: 40px;
-        width: 375px;
+        width: 350px;
         font-weight: 700;
         line-height: 50px;
         text-align: center;
@@ -802,22 +804,32 @@ footer{
     #linha{
         position: relative;
         top: 520px;
-        left: 4.5px;
+        right: 42px;
         transform: rotate(90deg);
     }
    
+    #statistics  {
+       width: 100%;
+    }
+
+    #statisticsBanner{
+       width: 100%;
+    }
+
     #statisticsBanner h4{
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
     #statistics{
         padding-bottom: 160px;
+        align-content: normal;
+        
     }
 
     .statisticsIcons {
         width: 41px;
         position: relative;
         bottom:38px;
-        left: 73px;
+        left: 50px;
     }
     
     #containerCards {
@@ -825,12 +837,13 @@ footer{
         height: 840px;
         padding-top: 100px;
         flex-direction: column;
+        width: 100%;
     }
     
     
     .card {
         width: 50%;
-        height: 240px;
+        height: 260px;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 30px;
@@ -854,6 +867,7 @@ footer{
         padding-left: 0px;
     }
     
+
     #containerBoost{
         background-image: url("images/bg-boost-mobile.svg");
     }
