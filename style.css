@@ -25,6 +25,8 @@ header div {
 #ulhearder{
     display: flex;
     list-style: none;
+    align-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -176,7 +178,7 @@ header div {
     background-color: white;
     padding: 10px;
     margin-top: 10px;
-    width: 1075px;
+    width: 79%;
     border-radius: 10px;
     flex-wrap: wrap;
 }
@@ -395,7 +397,179 @@ footer{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 428px){
+@media only screen and (max-width: 1350px){
+
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    header div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    #ulhearder{
+        flex-wrap: wrap;
+    }
+    
+    #ulhearder li{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    
+    #bannerInicial div {
+        padding-left: 9%;
+    }
+    
+    #bannerInicial svg{
+       width: 33%;
+    }
+    
+    #bannerInicial h1{
+        font-size: 40px;
+        width: 300px;
+        line-height: 50px;
+    }
+    
+    #bannerInicial h2{
+        width: 400px;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #digitaLink {
+        height: 200px;
+    }
+
+    #digitaLink div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #link{
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    #btnShort {
+      margin-top: 10px;
+    }
+    
+    
+    #cardLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 79%;
+        padding: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .link1{
+        padding: 10px;
+        padding-left: 0px;
+        text-align: left;
+        min-width: 95%;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    
+    .link2{
+        min-width: 95%;
+        padding: 10px;
+        padding-left: 0px;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #textErro {
+        position: relative;
+        bottom: 75px;
+        left: 5px;
+    }
+    #cardLinks div{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top: 2px solid #EFF1F7;
+        justify-content: center;
+    }
+    
+    .btncopy{
+        padding: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        width: 30%;
+        flex-wrap: wrap;
+    }
+    
+    #linha{
+        width: 450px;
+    }
+    
+    
+    .card {
+        background-color: white;
+        width: 20%;
+        height: 50%;
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        margin: 25px;
+    }
+    
+    .card h5{
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+    
+    .card p{
+        font-size: 12px;
+        width: 100%;
+        background-color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+    }
+    
+    #containerFooter{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+   
+    
+    #linksFooter{
+        flex-wrap: wrap;
+    }
+
+    #containerFooter li {
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 587px){
     
     #divHeader {
         display: none;
@@ -495,7 +669,6 @@ footer{
     #bannerInicial svg{
         width: 118%;
         padding-left: 100px;
-        
     }
 
     #bannerInicial div{
@@ -515,7 +688,6 @@ footer{
         text-align: center;
         margin: 0px;
         padding-bottom: 10px;
-        
     }
     
 
@@ -551,14 +723,14 @@ footer{
         width: 220px;
         margin-left: 0px;
         align-self: center;
-        margin-top: 0px;
+        margin-top: 4px;
     }
     
     #btnShort {
         width: 270px;
         color: #ffffff;
         margin-left: 15px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 0px;
     }
     
@@ -596,13 +768,10 @@ footer{
         width: 300px;
         padding: 0px;
         padding-bottom: 10px;
-        margin-left: 18px;
-        word-wrap: break-word;
-        
+        margin-left: 18px;        
     }
     
     .link2{
-        color: hsl(180, 66%, 49%);
         padding-right: 10px;
         padding-bottom: 10px;
         margin-left: 18px;
@@ -610,7 +779,6 @@ footer{
     }
 
     #textErro {
-        color: rgb(244, 98, 98);
         position: absolute;
         bottom: 82px;
         font-size: 14px;
@@ -625,6 +793,9 @@ footer{
     .btncopy{
         width: 285px;
         margin-left: 0px;
+        padding-left: 0px;
+        margin-right: 15px;
+        margin-top: 10px;
     }
     
     
@@ -632,40 +803,35 @@ footer{
         position: relative;
         top: 520px;
         left: 4.5px;
-        width: 500px;
-        align-self: center;
-        background-color: hsl(180, 66%, 49%);
-        height: 7px;
-        border: none;
         transform: rotate(90deg);
     }
-    
-    
+   
+    #statisticsBanner h4{
+        padding-bottom: 40px;
+    }
+    #statistics{
+        padding-bottom: 160px;
+    }
+
     .statisticsIcons {
-        background-color: hsl(257, 27%, 26%);
-        padding: 23px;
-        padding-bottom: 10px;
-        border-radius: 100px;
         width: 41px;
         position: relative;
         bottom:38px;
-        left: 80px;
+        left: 73px;
     }
     
     #containerCards {
         display: flex;
         height: 840px;
         padding-top: 100px;
-        z-index: 3;
         flex-direction: column;
     }
     
     
     .card {
-        background-color: white;
         width: 50%;
-        height: 210px;
-        padding-left: 30px;
+        height: 240px;
+        padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 30px;
         margin: 45px;
@@ -673,26 +839,19 @@ footer{
         line-height: 20px;
     }
     
-    #card1{
-        align-self: center;
-    }
-    
-    #card2{
-        align-self: center;
-    }
-    
-    #card3{
+    #card1, #card2, #card3{
         align-self: center;
     }
     
     .card h5{
         font-size: 20px;
         padding-bottom: 15px;
+
     }
     
     .card p{
-        font-size: 14px;
-        color: hsl(257, 7%, 63%);
+        font-size: 16px;
+        padding-left: 0px;
     }
     
     #containerBoost{
@@ -700,7 +859,6 @@ footer{
     }
     
     #containerBoost h3{
-        color: #ffffff;
         font-size: 25px;
     }
 
@@ -726,18 +884,7 @@ footer{
     }
     
     #containerFooter li{
-        list-style: none;
-        color: hsl(0, 0%, 75%);
-        font-weight: 400;
         padding: 5px;
-        padding-left: 0px;
-    }
-    
-    #containerFooter li{
-        list-style: none;
-        color: hsl(0, 0%, 75%);
-        font-weight: 400;
-        padding: 10px;
         padding-left: 0px;
     }
     
