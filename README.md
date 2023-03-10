@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Link
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [link](https://mtavidal.github.io/url-shortening-api-frontendmentor/)
 
 
 ### Built with
