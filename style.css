@@ -362,10 +362,7 @@ footer{
     justify-content: space-around;
 }
 
-#containerFooter ul {
-    padding-bottom: 10px;
-    padding-left: 0px;
-}
+
 
 #containerFooter li{
     list-style: none;
@@ -375,12 +372,10 @@ footer{
     padding-left: 0px;
 }
 
-#containerFooter li{
-    list-style: none;
-    color: hsl(0, 0%, 75%);
-    font-weight: 400;
-    padding: 5px;
-    padding-left: 0px;
+.li1 {
+    padding-bottom: 10px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
 }
 
 #containerFooter li:hover {
